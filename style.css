@@ -1,0 +1,174 @@
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+div#game-wrapper {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  color: #FFF;
+  background-color: #4EA0EC;
+  font-family: "Source Serif Pro";
+}
+
+div#game-wrapper span.footer {
+  font-family: "Pacifico";
+  display: block;
+  font-size: 1em;
+  margin: 25px 0px;
+  text-align: center;
+}
+
+div#game-wrapper h1 {
+  font-family: "Pacifico";
+  font-size: 3em;
+  font-weight: 100;
+  text-align: center;
+}
+
+div#game-wrapper div.scene {
+  display: none;
+}
+
+div#game-wrapper div#menu div.topics {
+  text-align: center;
+}
+
+div#game-wrapper div#menu div.topics div:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+div#game-wrapper div#menu div.topics div {
+  width: 100%;
+  text-align: center;
+  display: inline-block;
+  margin: 25px;
+}
+
+div#game-wrapper div#menu div.topics div img {
+  display: block;
+  width: 150px;
+  margin: 0px auto;
+}
+
+div#game-wrapper div#level span#quote,
+div#game-wrapper div#level span#name {
+  display: block;
+  width: 90%;
+  max-width: 700px;
+  margin: 15px auto;
+  font-size: 2em;
+}
+
+div#game-wrapper div#level span#name {
+  font-weight: bold;
+}
+
+div#game-wrapper div#level div#controls-wrapper {
+  text-align: center;
+  margin-top: 25px;
+}
+
+div#game-wrapper div#level div#controls-wrapper div.btn {
+  display: inline-block;
+  margin: 0px 15px;
+  height: 75px;
+  width: 75px;
+  color: #fff;
+  padding: 15px;
+  font-size: 4em;
+  border-radius: 100%;
+}
+
+div#game-wrapper div#level div#controls-wrapper div.btn:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+div#game-wrapper div#answer {
+  text-align: center;
+}
+
+div#game-wrapper div#answer span.points {
+  display: block;
+  text-align: center;
+  font-size: 4em;
+}
+
+div#game-wrapper div#answer span.message {
+  display: block;
+  text-align: center;
+  font-size: 1em;
+  font-style: oblique;
+  width: 75%;
+  max-width: 250px;
+  margin: 0px auto 15px auto;
+}
+
+div#game-wrapper div#answer div.btn:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+div#game-wrapper div#answer div.btn {
+  display: block;
+  margin: 0px auto;
+  width: 75%;
+  max-width: 250px;
+  color: #FFF;
+  border: solid thick #FFF;
+  padding: 15px 25px;
+  box-sizing: border-box;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.false {
+  background-color: #d10b00
+}
+
+.false:hover {
+  background-color: #d91c07;
+}
+
+.true {
+  background-color: #87cb06;
+}
+
+.true:hover {
+  background-color: #94d720;
+}
+
+img  {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn-next {
+  background-color: #fff !important;
+  border-color: black !important;
+  color: black !important; 
+}
+
+.btn-next:hover {
+  background: black !important;
+  border-color: white !important;
+  color: white !important;
+}

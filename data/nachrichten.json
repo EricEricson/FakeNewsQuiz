@@ -1,0 +1,17 @@
+[{
+    "quote": "WhatsApp wurde Anfang Mai 2019 gehackt. So war es möglich das Smartphone mit Spyware zu infizieren!",
+    "name": "Nachrichten",
+    "image": "<img src='images/nachrichten/whatsapp.jpg'>",
+    "fake": false,
+    "right": "Du bist gut informiert!",
+    "wrong": "Leider ist es wahr. Du solltest deine Version schnell aktualisieren!",
+    "link": "<a href='https://tinyurl.com/y22xup59' target='_blank'><div class='btn animated bounceIn'>LESEN</div></a>"
+}, {
+    "quote": "Anti-Nazi-Kampagne mit dem BVB.",
+    "name": "Nachrichten",
+    "image": "<img src='images/nachrichten/bvb.jpg'>",
+    "fake": true,
+    "right": "Fußballfans wissen einfach Bescheid.",
+    "wrong": "Große Lüge!",
+    "link": "<a href='https://tinyurl.com/yy28c9pg' target='_blank'><div class='btn animated bounceIn'>LESEN</div></a>"
+}]
