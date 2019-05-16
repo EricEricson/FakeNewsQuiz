@@ -22,7 +22,7 @@
     var scene = {
         elems: $('div.scene'),
         show: function (id) {
-            $('div#game-wrapper').style.backgroundColor = '#4EA0EC';
+            $('div#game-wrapper').style.backgroundColor = '#F27457';
             for (var x = 0; x < scene.elems.length; x++) {
                 scene.elems[x].style.display = 'none';
             }
@@ -38,6 +38,7 @@
                         elem.setAttribute('data-topic-num', x);
                         var icon = document.createElement('img');
                         icon.setAttribute('src', topic.icon);
+                        icon.setAttribute('id', 'topic-icon');
                         elem.appendChild(icon);
                         elem.innerHTML += topic.title;
                         elem.classList.add('animated');
@@ -60,7 +61,7 @@
                 function displayPoints(correct) {
                     var $points = $('div#answer span.points');
                     if (num === questions.length - 1) {
-                        $('div#game-wrapper').style.backgroundColor = '#4EA0EC';
+                        $('div#game-wrapper').style.backgroundColor = '#F27457';
                         $points.innerText = points + '/' + questions.length;
                         $message = $('div#game-wrapper div#answer span.message');
                         $message.innerHTML += '<br /><br />Danke fürs mitmachen!';
@@ -87,7 +88,7 @@
                 }
 
                 function askQuestion() {
-                    $('div#game-wrapper').style.backgroundColor = '#4EA0EC';
+                    $('div#game-wrapper').style.backgroundColor = '#F27457';
                     scene.show('level');
                     var question = questions[num];
                     $('span#quote').innerText = "\"" + question.quote + "\"";

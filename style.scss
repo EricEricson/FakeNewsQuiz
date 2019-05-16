@@ -2,7 +2,7 @@ $headerFont: 'Pacifico';
 $subFont: 'Source Serif Pro';
 $black: #000;
 $white: #FFF;
-$blue: #4EA0EC;
+$orange: #F27457;
 
 html,
 body {
@@ -19,7 +19,7 @@ div#game-wrapper {
     overflow-x: hidden;
     overflow-y: scroll;
     color: $white;
-    background-color: $blue;
+    background-color: $orange;
     font-family: $subFont;
 
     span.footer {
@@ -87,7 +87,7 @@ div#game-wrapper {
                 margin: 0px 15px;
                 height: 75px;
                 width: 75px;
-                color: $blue;
+                color: $orange;
                 background-color: $white;
                 padding: 15px;
                 font-size: 4em;
