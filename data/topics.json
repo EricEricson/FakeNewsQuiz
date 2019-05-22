@@ -2,8 +2,4 @@
     "title": "Nachrichten",
     "slug": "nachrichten",
     "icon": "images/nachrichten.png"
-}, {
-    "title": "Donald Trump",
-    "slug": "donald-trump",
-    "icon": "images/trump.png"
 }]
