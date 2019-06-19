@@ -15,11 +15,11 @@
     "wrong": "Große Lüge!",
     "link": "<a href='https://tinyurl.com/yy28c9pg' target='_blank'><div class='btn animated bounceIn'>LESEN</div></a>"
 }, {
-    "quote": "Renate Künast: Der traumatisierte junge Flüchtling hat zwar getötet, man muss im aber im Moment trotzdem helfen!",
+    "quote": "Renate Künast:'Der traumatisierte junge Flüchtling hat zwar getötet, man muss im aber im Moment trotzdem helfen!'",
     "name": "Nachrichten",
     "image": "<img src='images/nachrichten/kuenast.jpg'>",
     "fake": true,
     "right": "Natürlich nur frei erfunden!",
-    "wrong": "FAKE NEWS! Lies Dir gleich mal diesen Artikel durch.",
+    "wrong": "FAKE NEWS! Lies Dir am besten gleich mal diesen Artikel durch.",
     "link": "<a href='https://tinyurl.com/y4j9bpy4' target='_blank'><div class='btn animated bounceIn'>LESEN</div></a>"
 }]

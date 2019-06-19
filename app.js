@@ -95,14 +95,6 @@
                     $('#image').innerHTML = question.image;
                     $('#lesen').innerHTML = question.link;
 
-                    // var imageURL = question.image;
-                    // $('#image').prepend('<img id=\"theImg\" src=\"imageURL\"/>')
-
-                    // var img = document.createElement("IMG");
-                    // img.src = "";
-                    // img.src = question.image;
-                    // document.getElementById('image').appendChild(img);
-
                     $('span#name').innerText = question.name;
                     $('div#controls-wrapper div.false').onclick = function () {
                         scene.show('answer');
