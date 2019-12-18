@@ -1,4 +1,4 @@
-# Beleg -  Entwicklungswerkzeuge für MM-Systeme
+# Entwicklungswerkzeuge für MM-Systeme
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
